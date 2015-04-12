@@ -83,7 +83,7 @@
                                     <artifactId>jboss-ejb-test-2-ejb</artifactId>
                                 </ejbModule>
                             </modules>
-                            <outputDirectory>../deployments</outputDirectory>
+                            <outputDirectory>deployments</outputDirectory>
                             <earName>ROOT</earName>
                         </configuration>
                     </plugin>
