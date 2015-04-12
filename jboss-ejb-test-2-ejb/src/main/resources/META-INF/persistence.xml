@@ -6,7 +6,7 @@
 
     <persistence-unit name="TestUnit" transaction-type="JTA">
         <provider>org.hibernate.ejb.HibernatePersistence</provider>
-        <jta-data-source>java:jboss/PostgresDS</jta-data-source>
+        <jta-data-source>java:jboss/datasources/PostgreSQLDS</jta-data-source>
 
         <class>org.bbuallbest.entity.Student</class>
 
