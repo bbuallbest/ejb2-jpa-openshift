@@ -42,7 +42,8 @@ public class TestServlet extends HttpServlet {
         } catch (NamingException e) {
             e.printStackTrace();
         }
-
+        resp.setContentType("text/html");
+        
         PrintWriter writer = resp.getWriter();
         writer.append("<html>");
         writer.append("<head></head>");
