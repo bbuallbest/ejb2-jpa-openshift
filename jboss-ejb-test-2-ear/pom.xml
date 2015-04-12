@@ -76,7 +76,7 @@
                                 <webModule>
                                     <groupId>org.bbuallbest</groupId>
                                     <artifactId>jboss-ejb-test-2-web</artifactId>
-                                    <contextRoot>/jbossweb</contextRoot>
+                                    <contextRoot>/</contextRoot>
                                 </webModule>
                                 <ejbModule>
                                     <groupId>org.bbuallbest</groupId>

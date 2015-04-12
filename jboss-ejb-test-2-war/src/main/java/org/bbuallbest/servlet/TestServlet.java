@@ -43,7 +43,7 @@ public class TestServlet extends HttpServlet {
             e.printStackTrace();
         }
         resp.setContentType("text/html");
-        
+
         PrintWriter writer = resp.getWriter();
         writer.append("<html>");
         writer.append("<head></head>");
