@@ -50,17 +50,10 @@
                             <artifactId>jboss-ejb-test-2-ejb</artifactId>
                         </ejbModule>
                     </modules>
+                    <outputDirectory>../deployments</outputDirectory>
+                    <earName>ROOT</earName>
                 </configuration>
             </plugin>
-            <!--<plugin>-->
-                <!--<artifactId>maven-compiler-plugin</artifactId>-->
-                <!--<version>3.0</version>-->
-                <!--<configuration>-->
-                    <!--<source>1.7</source>-->
-                    <!--<target>1.7</target>-->
-                <!--</configuration>-->
-            <!--</plugin>-->
         </plugins>
     </build>
-
 </project>
